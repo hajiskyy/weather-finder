@@ -16,8 +16,8 @@ btnSearch.addEventListener("click", e => {
 
   // check input details
   if (cityFrom.value == cityTo.value) {
-    alert("Please choose different cities");
     btnSearch.classList.remove('is-loading');
+    alert("Please choose different cities");
   } else {
     getData();
   }
