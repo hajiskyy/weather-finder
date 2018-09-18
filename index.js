@@ -24,11 +24,11 @@ btnSearch.addEventListener("click", e => {
 
 async function getData() {
   let res1 = await fetch(`https://api.openweathermap.org/data/2.5/forecast?id=${cityFrom.value}&appid=${apiKey}&units=metric`);
-  fromData = await res1.json();
+  let fromData = await res1.json();
   await putFromData(fromData);
 
   let res2 = await fetch(`https://api.openweathermap.org/data/2.5/forecast?id=${cityTo.value}&appid=${apiKey}&units=metric`);
-  toData = await res2.json();
+  let toData = await res2.json();
   await putToData(toData);
 
   btnSearch.classList.remove('is-loading');
