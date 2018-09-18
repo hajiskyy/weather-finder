@@ -1,0 +1,16 @@
+{
+  "name": "weatherfinder",
+  "version": "1.0.0",
+  "description": "find 5 day weather forecast",
+  "main": "app",
+  "dependencies": {
+    "gh-pages": "^2.0.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
