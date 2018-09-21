@@ -1,0 +1,21 @@
+{
+  "name": "weatherfinder",
+  "version": "1.0.0",
+  "description": "find 5 day weather forecast",
+  "main": "app.js",
+  "dependencies": {
+    "gh-pages": "^2.0.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://hajiskyy.github.io/weatherfinder"
+}
